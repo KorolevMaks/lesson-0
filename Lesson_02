@@ -1,0 +1,5 @@
+home_work = 12
+hour = 1.5
+name_course = 'Python'
+time_for_one_task = hour / home_work
+print ("Курс:" , name_course , ";всего задач:" , home_work , ";затрачено часов:", hour , ";среднее время выполнения:",  time_for_one_task)

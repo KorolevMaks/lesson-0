@@ -6,4 +6,6 @@ def get_matrix(n, m, value) :
             j = matrix[i]
             j.append(value)
     print(matrix)
-get_matrix(10,1,1)
+get_matrix(2,2,10)
+get_matrix(3,5,42)
+get_matrix(4,2,13)

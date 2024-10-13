@@ -1,6 +1,6 @@
 def custom_write(file_name, strings):
     strings_position = {}
-    file = open(file_name, 'a', encoding='utf-8')
+    file = open(file_name, 'w', encoding='utf-8')
     for i, j in enumerate(strings):
         key = (i+1, file.tell())
         strings_position[key] = j
